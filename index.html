@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music World</title>
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navigation">
+    <div id="logo">
+      <h1>MUSIC WORLD</h1>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="nav" id="navMenu">
+      <a href="index.html">HOME</a>
+      <a href="allbums.html">ALLBUMS</a>
+      <a href="reviews.html">REVIEWS</a>
+      <a href="register.html">SIGN IN</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div class="header" data-aos="fade-down" data-aos-duration="1000">
+    <div id="h1"><h1>Welcome To MusicWorld.</h1></div>
+    <div id="h2"><h1>Explore genres, new releases, and more.</h1></div>
+  </div>
+
+  <!-- Slider -->
+  <div id="img1" data-aos="fade-down" data-aos-duration="2000"></div>
+
+  <!-- Tab 1 -->
+  <div class="tab" data-aos="fade-right" data-aos-duration="1000">
+    <div class="txt">
+      <h2>Search Music <br> Instantly.</h2>
+      <p>Find your favorite artist,<br> album or release by name or <br> date using the smart search.</p>
+    </div>
+    <div id="img2"></div>
+  </div>
+
+  <!-- Tab 2 -->
+  <div class="tab" data-aos="fade-right" data-aos-duration="1000">
+    <div id="img3"></div>
+    <div class="txt">
+      <h2>Best of the year.</h2>
+      <p>Discover top rated tracks,<br> albums and artists picked <br> as the best of 2025.</p>
+    </div>
+  </div>
+
+  <!-- Tab 3 -->
+  <div class="tab" data-aos="fade-right" data-aos-duration="1000">
+    <div class="txt">
+      <h2>New releases.</h2>
+      <p>Be the first to hear about the <br> freshest music across all genres.</p>
+    </div>
+    <div id="img4"></div>
+  </div>
+
+  <!-- Artists Section -->
+<div class="articles" data-aos="fade-right" data-aos-duration="1000">
+  <h2>Artists.</h2>
+
+  <div class="slider-container">
+    <div class="slider-track">
+
+      <!-- Singer Boxes (Original List) -->
+      <div class="singer-box" style="background-image: url('./image/taylor swift.jpeg');"><div class="singer-name">Taylor Swift</div></div>
+      <div class="singer-box" style="background-image: url('./image/arjith singh.jpeg');"><div class="singer-name">Arijit Singh</div></div>
+      <div class="singer-box" style="background-image: url('./image/The Weekend.jpeg');"><div class="singer-name">The Weeknd</div></div>
+      <div class="singer-box" style="background-image: url('./image/atif aslam.jpeg');"><div class="singer-name">Atif Aslam</div></div>
+      <div class="singer-box" style="background-image: url('./image/adele.jpeg');"><div class="singer-name">Adele</div></div>
+      <div class="singer-box" style="background-image: url('./image/Bts.jpeg');"><div class="singer-name">BTS</div></div>
+      <div class="singer-box" style="background-image: url('./image/justin bieber.jpeg');"><div class="singer-name">Justin Bieber</div></div>
+      <div class="singer-box" style="background-image: url('./image/selena ghomez.jpeg');"><div class="singer-name">Selena Gomez</div></div>
+      <div class="singer-box" style="background-image: url('./image/shreya ghoshal.jpeg');"><div class="singer-name">Shreya Ghoshal</div></div>
+      <div class="singer-box" style="background-image: url('./image/billie elish.jpeg');"><div class="singer-name">Billie Eilish</div></div>
+
+      <!-- Duplicate List (Required for infinite scroll) -->
+      <div class="singer-box" style="background-image: url('./image/taylor swift.jpeg');"><div class="singer-name">Taylor Swift</div></div>
+      <div class="singer-box" style="background-image: url('./image/arjith singh.jpeg');"><div class="singer-name">Arijit Singh</div></div>
+      <div class="singer-box" style="background-image: url('./image/The Weekend.jpeg');"><div class="singer-name">The Weeknd</div></div>
+      <div class="singer-box" style="background-image: url('./image/atif aslam.jpeg');"><div class="singer-name">Atif Aslam</div></div>
+      <div class="singer-box" style="background-image: url('./image/adele.jpeg');"><div class="singer-name">Adele</div></div>
+      <div class="singer-box" style="background-image: url('./image/Bts.jpeg');"><div class="singer-name">BTS</div></div>
+      <div class="singer-box" style="background-image: url('./image/justin bieber.jpeg');"><div class="singer-name">Justin Bieber</div></div>
+      <div class="singer-box" style="background-image: url('./image/selena ghomez.jpeg');"><div class="singer-name">Selena Gomez</div></div>
+      <div class="singer-box" style="background-image: url('./image/shreya ghoshal.jpeg');"><div class="singer-name">Shreya Ghoshal</div></div>
+      <div class="singer-box" style="background-image: url('./image/billie elish.jpeg');"><div class="singer-name">Billie Eilish</div></div>
+
+    </div>
+  </div>
+</div>
+
+
+    <div class="collection" data-aos="fade-right" data-aos-duration="1000">
+      <h3>Instrument Collection.</h3>
+      <p>Browse an extensive showcase of classic and modern <br> instruments used by world-famous artists in every genre.</p><br>
+      <p>Each instrument is paired with sounds, artist <br> associations, and album appearances for deep dives.</p><br>
+      <p>From electric guitars to grand pianos, discover what shapes the music you love.</p>
+    </div> 
+  </div>
+
+  <!-- Register -->
+  <div class="register" data-aos="fade-right" data-aos-duration="1000">
+    <h1>Unlock Full Experience.</h1>
+    <p>Sign up For Downloads, or <br> Listen For Free as a Guest.</p>
+    <button><a href="register.html">Register</a></button>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="artists">
+      <h3>Artists</h3><br>
+      <p>All Artists<br>Top Albums<br>Genres</p>
+    </div>
+    <div class="discover">
+      <h3>Discover</h3><br>
+      <p>New Releases<br>Best of 2025<br>Reviews</p>
+    </div>
+    <div class="account">
+      <h3>Account</h3><br>
+      <p>Sign up<br>Login<br>Listen/Download</p>
+    </div>
+    <div class="info">
+      <h3>INFO</h3><br>
+      <p>About<br>Contact<br>Support</p>
+    </div>
+  </div>
+
+  <div class="cdn">
+    <p>&copy; MusicWorld. All rights reserved.</p>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="index.js"></script>
+</body>
+</html>

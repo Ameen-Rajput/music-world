@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MusicWorld - Albums</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- AOS (Animate On Scroll) Library CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navigation">
+    <div id="logo">
+      <h1>MUSIC WORLD</h1>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="nav">
+      <a href="index.html">HOME</a>
+      <a href="allbums.html">ALLBUMS</a>
+      <a href="reviews.html">REVIEWS</a>
+      <a href="register.html">SIGN IN</a>
+    </div>
+  </div>
+
+  <!-- Albums Page Content -->
+  <section class="albums-page">
+    <h1>Artist Albums</h1>
+
+    <div class="album-grid">
+
+      <!-- Taylor Swift -->
+      <div class="album-card" style="background-image: url('./image/taylor swift.jpeg')" data-aos="zoom-in">
+        <div class="album-overlay">
+          <h2>Taylor Swift</h2>
+          <p><strong>Genre:</strong> Pop, Country</p>
+          <p><strong>Debut:</strong> 2006</p>
+          <p><strong>Top Albums:</strong> Midnights, Folklore, Lover</p>
+          <p><strong>Bio:</strong> Multi-Grammy award winner known for her storytelling lyrics and shift from country to pop.</p>
+          <div class="album-actions">
+            <button><i class="fas fa-headphones"></i> Listen</button>
+            <button onclick="showLoginAlert()"><i class="fas fa-download"></i> Download</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arijit Singh -->
+      <div class="album-card" style="background-image: url('./image/arjith singh.jpeg')" data-aos="zoom-in">
+        <div class="album-overlay">
+          <h2>Arijit Singh</h2>
+          <p><strong>Genre:</strong> Romantic, Bollywood</p>
+          <p><strong>Debut:</strong> 2011</p>
+          <p><strong>Top Albums:</strong> Tum Hi Ho, Soulful Melodies</p>
+          <p><strong>Bio:</strong> Indian playback singer with millions of fans and a soulful voice loved globally.</p>
+          <div class="album-actions">
+            <button><i class="fas fa-headphones"></i> Listen</button>
+            <button onclick="showLoginAlert()"><i class="fas fa-download"></i> Download</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Atif Aslam -->
+      <div class="album-card" style="background-image: url('./image/atif aslam.jpeg')" data-aos="zoom-in">
+        <div class="album-overlay">
+          <h2>Atif Aslam</h2>
+          <p><strong>Genre:</strong> Pop, Rock</p>
+          <p><strong>Debut:</strong> 2004</p>
+          <p><strong>Top Albums:</strong> Doorie, Meri Kahani</p>
+          <p><strong>Bio:</strong> Pakistani music star known for his emotional voice and popular ballads.</p>
+          <div class="album-actions">
+            <button><i class="fas fa-headphones"></i> Listen</button>
+            <button onclick="showLoginAlert()"><i class="fas fa-download"></i> Download</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Adele -->
+      <div class="album-card" style="background-image: url('./image/adele.jpeg')" data-aos="zoom-in">
+        <div class="album-overlay">
+          <h2>Adele</h2>
+          <p><strong>Genre:</strong> Soul, Pop</p>
+          <p><strong>Debut:</strong> 2008</p>
+          <p><strong>Top Albums:</strong> 21, 25, 30</p>
+          <p><strong>Bio:</strong> British singer-songwriter known for her deep voice and emotional ballads.</p>
+          <div class="album-actions">
+            <button><i class="fas fa-headphones"></i> Listen</button>
+            <button onclick="showLoginAlert()"><i class="fas fa-download"></i> Download</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Billie Eilish -->
+      <div class="album-card" style="background-image: url('./image/billie elish.jpeg')" data-aos="zoom-in">
+        <div class="album-overlay">
+          <h2>Billie Eilish</h2>
+          <p><strong>Genre:</strong> Alternative, Pop</p>
+          <p><strong>Debut:</strong> 2016</p>
+          <p><strong>Top Albums:</strong> Happier Than Ever, When We All Fall Asleep</p>
+          <p><strong>Bio:</strong> Young Grammy-winning artist known for her whispery vocals and bold style.</p>
+          <div class="album-actions">
+            <button><i class="fas fa-headphones"></i> Listen</button>
+            <button onclick="showLoginAlert()"><i class="fas fa-download"></i> Download</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- BTS -->
+      <div class="album-card" style="background-image: url('./image/bts.jpeg')" data-aos="zoom-in">
+        <div class="album-overlay">
+          <h2>BTS</h2>
+          <p><strong>Genre:</strong> K-Pop, Hip Hop</p>
+          <p><strong>Debut:</strong> 2013</p>
+          <p><strong>Top Albums:</strong> BE, Map of the Soul: 7</p>
+          <p><strong>Bio:</strong> Global K-pop group from South Korea with a massive worldwide fan base.</p>
+          <div class="album-actions">
+            <button><i class="fas fa-headphones"></i> Listen</button>
+            <button onclick="showLoginAlert()"><i class="fas fa-download"></i> Download</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Justin Bieber -->
+      <div class="album-card" style="background-image: url('./image/justin bieber.jpeg')" data-aos="zoom-in">
+        <div class="album-overlay">
+          <h2>Justin Bieber</h2>
+          <p><strong>Genre:</strong> Pop, R&B</p>
+          <p><strong>Debut:</strong> 2009</p>
+          <p><strong>Top Albums:</strong> Purpose, Justice</p>
+          <p><strong>Bio:</strong> Canadian pop sensation who started young and rose to global stardom.</p>
+          <div class="album-actions">
+            <button><i class="fas fa-headphones"></i> Listen</button>
+            <button onclick="showLoginAlert()"><i class="fas fa-download"></i> Download</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Selena Gomez -->
+      <div class="album-card" style="background-image: url('./image/selena ghomez.jpeg')" data-aos="zoom-in">
+        <div class="album-overlay">
+          <h2>Selena Gomez</h2>
+          <p><strong>Genre:</strong> Pop</p>
+          <p><strong>Debut:</strong> 2009</p>
+          <p><strong>Top Albums:</strong> Rare, Revival</p>
+          <p><strong>Bio:</strong> American singer and actress known for her heartfelt pop music and advocacy.</p>
+          <div class="album-actions">
+            <button><i class="fas fa-headphones"></i> Listen</button>
+            <button onclick="showLoginAlert()"><i class="fas fa-download"></i> Download</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shreya Ghoshal -->
+      <div class="album-card" style="background-image: url('./image/shreya ghoshal.jpeg')" data-aos="zoom-in">
+        <div class="album-overlay">
+          <h2>Shreya Ghoshal</h2>
+          <p><strong>Genre:</strong> Classical, Bollywood</p>
+          <p><strong>Debut:</strong> 2002</p>
+          <p><strong>Top Albums:</strong> Devdas, Saans</p>
+          <p><strong>Bio:</strong> Legendary Indian playback singer known for her sweet, powerful vocals.</p>
+          <div class="album-actions">
+            <button><i class="fas fa-headphones"></i> Listen</button>
+            <button onclick="showLoginAlert()"><i class="fas fa-download"></i> Download</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Weeknd -->
+      <div class="album-card" style="background-image: url('./image/The Weekend.jpeg')" data-aos="zoom-in">
+        <div class="album-overlay">
+          <h2>The Weeknd</h2>
+          <p><strong>Genre:</strong> R&B, Pop</p>
+          <p><strong>Debut:</strong> 2011</p>
+          <p><strong>Top Albums:</strong> After Hours, Starboy</p>
+          <p><strong>Bio:</strong> Canadian singer with a haunting voice and futuristic sound blending R&B and pop.</p>
+          <div class="album-actions">
+            <button><i class="fas fa-headphones"></i> Listen</button>
+            <button onclick="showLoginAlert()"><i class="fas fa-download"></i> Download</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    function showLoginAlert() {
+      alert("Please login to download the album.");
+    }
+
+    function toggleMenu() {
+      const nav = document.querySelector('.nav');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
