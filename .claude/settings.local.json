@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd image *)",
+      "Bash(mkdir -p image)",
+      "Bash(mv *.jpeg *.jpg image/)",
+      "Bash(rm -rf image)",
+      "Bash(mkdir image *)",
+      "Read(//c/c/Users/Siddiqui/OneDrive/Documents/projects/**)",
+      "Bash(mv \"Bts.jpeg\" \"bts-temp.jpeg\")",
+      "Bash(mv \"bts-temp.jpeg\" \"bts.jpeg\")",
+      "Bash(mv \"taylor swift.jpeg\" \"taylorswift.jpeg\")",
+      "Bash(mv \"arjith singh.jpeg\" \"arjithsingh.jpeg\")",
+      "Bash(mv \"The Weekend.jpeg\" \"TheWeekend.jpeg\")",
+      "Bash(mv \"atif aslam.jpeg\" \"atifaslam.jpeg\")"
+    ]
+  }
+}
